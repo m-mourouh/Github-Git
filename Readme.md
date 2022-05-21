@@ -20,8 +20,8 @@
 . in commits red => deleted , green => added , w/b => no chages
 
 ## Git commands 2 (existing repo that we clonned)
-`git clone url` -> to clone the repo 
-. ls -la : shows the all file and floder inclding the hidden ones (.git tracks the history of repo commits).
+`git clone url` : to clone the repo 
+`ls -la` : shows the all file and floder inclding the hidden ones (.git tracks the history of repo commits).
 . git status -> shows all files that were created , updated or deleted 
 . track files : git add . | git add <filename> | git add index.html
 . commit or save code locally : git commit -m 'message 1' -m 'description' 
